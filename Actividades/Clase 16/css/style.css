@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header {
+    width: 100%;
+    top: 0%;
+}
+
+.banner {
+    background-color: #1cd1b0 ;
+    color: #000000 ;
+    height: 30px;
+    width: 100%;
+    padding-top: 5px ;
+    padding-bottom: 5px;
+    padding-left: 20px;
+}
+
+.bannerz {
+    display: flex;
+    background-color: #00669f ;
+    color: #fff9f9 ;
+    height: 100px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.bannerx {
+    background-color: #001d2d;
+    color: #fff9f9;
+    height: 40px;
+    width: 100%;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: end;
+    }
+
+.estilos {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    font-weight: 50;
+    font-size: 12px;
+}
+
+    .conteiner {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+    margin: 100px;
+    }
+
+.formulario {
+    background-color: #00669f;
+    color: #fff9f9;
+    justify-content: space-between;
+    border-radius: 49px;
+    padding: 20px 80px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    width: 1000px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h3 {
+    font-weight: 100;
+}
+
+label {
+    font-weight: 100;
+}
+.conteiner2a {
+    display: flex;
+}
+
+.conteiner2 {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+}
+
+input {
+    border-radius: 10px;
+    height: 50px;
+}
+.poderes input {
+    height: auto;
+    margin-right: 20px;
+}
+textarea {
+    border-radius: 10px;
+    height: 300px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+select {
+    border-radius: 10px;
+    height: 50px;
+}
+
+.conteiner3 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    gap: 10px;
+}
+
+.poderes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 0.5px;
+}
+
+    .tipodepersonaje {
+    display: flex;
+    flex-direction: column;
+}
+
+.personajes input {
+    height: auto;
+    margin-right: 20px;
+}
+
+.enviar {
+    color: #000000;
+    background-color: #1cd1b0;
+    padding: 15px 120px;
+    border-style: none;
+    border-radius: 25px;
+    font-weight: 700;
+    margin-top: 25px;
+    font-size: 40px;
+}
+
+.estilofinal {
+    text-align: center;
+}
+
+footer {
+    background-color: #00669f;
+    color: #fff9f9;
+    padding: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.nombre:focus{
+    border: 5px solid rgb(17, 3, 214);
+}
+
+.poderes input:checked{
+    box-shadow: 0px 0px 10px 1px orange ;
+}
+
+    textarea:required{
+    background-color : #1cd1b0;
+    border: none;
+}
+
+.personajes input:default{
+    box-shadow: 0px 0px 10px 1px red ;
+    border: none;
+}
+
+.container3 input:disabled{
+    background-color: cadetblue;
+}
+.data:active{
+    color: greenyellow ;
+}
